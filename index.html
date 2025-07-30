@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Homily - Family App</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="container">
+      <div class="logo">
+        <img src="images/logo.png" alt="Homily Logo" class="logo-img" />
+        <span class="logo-text">Homily</span>
+      </div>
+
+      <div class="hamburger" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+
+      <nav>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Features</a></li>
+          <li><a href="#">For Families</a></li>
+          <li><a href="#">About</a></li>
+        </ul>
+      </nav>
+
+      <a class="btn-primary gradient-btn join-btn" href="#">Join Waitlist</a>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container hero-content">
+      <div class="hero-text">
+        <h1>Where Love Meets Logic – <span class="highlight">One App for Every Family Bond</span></h1>
+        <p>Unite every family member with Homily. Schedule, organize, and cherish every moment together in one beautiful, intuitive app.</p>
+        <div class="hero-buttons">
+          <a href="#" class="btn-primary gradient-btn">Learn More</a>
+          <a href="#" class="btn-secondary"><span class="play-icon">▶</span> Watch How it Works</a>
+        </div>
+      </div>
+      <div class="hero-image">
+        <div class="hero-image-wrapper">
+          <img src="images/rectangle.png" alt="Background Rectangle" class="bg-rectangle" />
+          <img src="images/familypic.png" alt="Family illustration" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Under One Roof section -->
+  <section class="family-gap">
+    <div class="container">
+      <h2 class="section-title">Under One Roof, But Worlds Apart</h2>
+      <div class="family-row">
+        <div class="family-card">
+          <h3>Dad in meetings</h3>
+          <img src="images/dad.png" alt="Dad in meetings" />
+          <p>Missing family moments due to back-to-back calls and deadlines</p>
+        </div>
+        <div class="family-card">
+          <h3>Mom multitasking</h3>
+          <img src="images/mom.png" alt="Mom multitasking" />
+          <p>Juggling household responsibilities with little acknowledgment</p>
+        </div>
+        <div class="family-card">
+          <h3>Elders unheard</h3>
+          <img src="images/elders.png" alt="Elders unheard" />
+          <p>Feeling isolated despite living with family members</p>
+        </div>
+        <div class="family-card">
+          <h3>Kids ignored</h3>
+          <img src="images/kids.png" alt="Kids ignored" />
+          <p>Seeking attention but finding parents too busy to notice</p>
+        </div>
+      </div>
+
+      <p class="section-note">Homes are full of love. But disconnected.</p>
+
+      <div class="solution-block">
+        <div class="solution-text">
+          <h3>The Homily Solution</h3>
+          <p>Homily connects hearts with soft alerts, emotion tags, and family-safe technology designed specifically for Indian households.</p>
+          <ul class="solution-list">
+            <li><img src="images/notify-icon.svg" alt="">Gentle notifications that respect focus time</li>
+            <li><img src="images/emotion-icon.svg" alt="">Emotion-based communication for deeper connections</li>
+            <li><img src="images/lock-icon.svg" alt="">Privacy-first design that keeps family matters private</li>
+          </ul>
+        </div>
+        <div class="solution-images">
+          <img src="images/the-homily-solution.png" alt="The Homily Solution Image" />
+        </div>
+      </div>
+      <div class="scroll-hint-wrapper">
+        <p class="scroll-hint">Feel the difference. Scroll down…</p>
+        <img src="images/scroll-arrow.svg" alt="Scroll Arrow" class="scroll-arrow" />
+      </div>
+    </div>
+  </section>
+
+<!-- Third Section: Features -->
+<section class="features-section">
+  <div class="container">
+    <h2 class="section-title">Features You'll Fall in Love With</h2>
+    <div class="features-grid">
+      <div class="feature-card">
+        <img src="images/walkie-talkie.png" alt="">
+        <h3>Walkie-Talkie Voice Pings</h3>
+        <p>Send quick voice messages that feel like you’re in the same room, even when you’re not.</p>
+      </div>
+      <div class="feature-card">
+        <img src="images/fridge-inventory.png" alt="">
+        <h3>Fridge Inventory Manager</h3>
+        <p>Track groceries, plan meals, and share shopping lists with the entire family.</p>
+      </div>
+      <div class="feature-card">
+        <img src="images/vibration-alerts.png" alt="">
+        <h3>Emotional Vibration Alerts</h3>
+        <p>Send customized vibration patterns to emotionally connect with loved ones even from a distance.</p>
+      </div>
+      <div class="feature-card">
+        <img src="images/elder-health.png" alt="">
+        <h3>Elder Health Alerts</h3>
+        <p>Receive real-time health notifications for elders through smartwatch integrations.</p>
+      </div>
+      <div class="feature-card">
+        <img src="images/family-scheduler.png" alt="">
+        <h3>Family Scheduler</h3>
+        <p>Create and manage a shared calendar for family events, tasks, and daily routines.</p>
+      </div>
+      <div class="feature-card">
+        <img src="images/live-status.png" alt="">
+        <h3>Live Family Member Status</h3>
+        <p>View each family member’s current status whether they’re busy, resting, or in a meeting.</p>
+      </div>
+      <div class="feature-card">
+        <img src="images/trusted-workers.png" alt="">
+        <h3>Trusted Worker Directory</h3>
+        <p>Store and share profiles of trusted service providers with other family members.</p>
+      </div>
+      <div class="feature-card">
+        <img src="images/family-feed.png" alt="">
+        <h3>Private Family Feed</h3>
+        <p>A social feed exclusively for your family to share updates, memories, and achievements.</p>
+      </div>
+      <div class="feature-card">
+        <img src="images/chore-management.png" alt="">
+        <h3>Chore Management</h3>
+        <p>Assign, track, and complete daily household chores collaboratively.</p>
+      </div>
+    </div>
+    <div class="view-all-wrapper">
+      <a href="#" class="view-all-btn">View All Features</a>
+    </div>
+  </div>
+</section>
+
+
+<!-- So Easy, Even Elders Can Use It section -->
+<section class="ease-of-use-section">
+  <div class="container">
+    <h2 class="section-title">So Easy, Even Elders Can Use It</h2>
+    <div class="ease-grid">
+      <div class="ease-card">
+        <div class="ease-number">1</div>
+        <h3>Create Family Circle</h3>
+        <p>Add family members with just their phone number – no complicated setup required.</p>
+      </div>
+      <div class="ease-card">
+        <div class="ease-number">2</div>
+        <h3>Auto-Sync Status &amp; Reminders</h3>
+        <p>The app intelligently learns your family’s routines and syncs everyone’s schedules.</p>
+      </div>
+      <div class="ease-card">
+        <div class="ease-number">3</div>
+        <h3>Experience the Emotional Connect</h3>
+        <p>Feel the difference as your family becomes more attentive and connected.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Testimonials section -->
+<section class="testimonial-section">
+  <div class="container">
+    <h2 class="section-title">Hear It from Real Families</h2>
+    <div class="testimonial-grid">
+      <div class="testimonial-card">
+        <div class="testimonial-header">
+          <img src="images/user1.png" alt="Priya">
+          <div>
+            <h3>Priya</h3>
+            <p>Home Maker</p>
+          </div>
+          <div class="stars">★★★★★</div>
+        </div>
+        <p class="testimonial-text">
+          "I feel seen. Homily reminds my husband like I would! Now he remembers to check in during his work breaks, and I don't have to feel like I'm nagging."
+        </p>
+      </div>
+      <div class="testimonial-card">
+        <div class="testimonial-header">
+          <img src="images/user2.png" alt="Mohan">
+          <div>
+            <h3>Mohan</h3>
+            <p>Home Maker</p>
+          </div>
+          <div class="stars">★★★★★</div>
+        </div>
+        <p class="testimonial-text">
+          "I feel seen. Homily reminds my husband like I would! Now he remembers to check in during his work breaks, and I don't have to feel like I'm nagging."
+        </p>
+      </div>
+      <div class="testimonial-card">
+        <div class="testimonial-header">
+          <img src="images/user3.png" alt="Rithwik">
+          <div>
+            <h3>Rithwik</h3>
+            <p>Home Maker</p>
+          </div>
+          <div class="stars">★★★★★</div>
+        </div>
+        <p class="testimonial-text">
+          "I feel seen. Homily reminds my husband like I would! Now he remembers to check in during his work breaks, and I don't have to feel like I'm nagging."
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+</section>
+
+  <!-- Waitlist Signup section -->
+  <section class="waitlist-section">
+    <div class="container">
+      <h2 class="waitlist-title">Be the First to Welcome Homily into Your Home 🏡</h2>
+      <p class="waitlist-subtext">Join our exclusive waitlist and be notified when we launch. Early members receive special family benefits!</p>
+      <form class="waitlist-form">
+        <input type="email" placeholder="Enter email" required />
+        <button type="submit" class="btn-primary gradient-btn">Notify Me on Launch</button>
+      </form>
+      <p class="privacy-text">100% Private, No Spam Promise</p>
+    </div>
+  </section>
+
+  <!-- Footer section -->
+ <footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <img src="images/logo.png" alt="Homily Logo" /> 
+        <p>Connecting Indian families through technology that understands the emotional fabric of our homes.</p>
+      </div>
+      <div class="footer-columns">
+        <div class="footer-column">
+          <h4>Features</h4>
+          <ul>
+            <li>Voice Pings</li>
+            <li>Family Calendar</li>
+            <li>Health Monitoring</li>
+            <li>Emotion Tags</li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h4>For Families</h4>
+          <ul>
+            <li>Working Parents</li>
+            <li>Homemakers</li>
+            <li>Elders</li>
+            <li>Children</li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h4>About</h4>
+          <ul>
+            <li>Our Story</li>
+            <li>Team</li>
+            <li>Press</li>
+            <li>Careers</li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h4>Join Us</h4>
+          <ul>
+            <li>Waitlist</li>
+            <li>Contact</li>
+            <li>FAQ</li>
+            <li>Support</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>🔒 Privacy First | ❤️ Built for Indian Families | 🇮🇳 Made with Love</p>
+      <div class="social-icons">
+        <img src="icons/twitter.svg" alt="X">
+        <img src="icons/insta.svg" alt="Instagram">
+        <img src="icons/linkedin.svg" alt="LinkedIn">
+      </div>
+    </div>
+  </div>
+</footer>
+  <div class="footer-copy">
+    <p>© 2023 Homily. All rights reserved.</p>
+  </div>
+
+  
+<script>
+  function toggleMenu() {
+    const navLinks = document.getElementById('navLinks');
+    navLinks.classList.toggle('show');
+  }
+</script>
+
+</body>
+</html>
